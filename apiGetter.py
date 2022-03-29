@@ -13,7 +13,7 @@ def get_temp():
     current_temp_in_k = json_data['main']['temp']
 
     current_temp = k_to_f(current_temp_in_k)
-    print(current_temp)
+    return current_temp
 
 
 def k_to_f(temp_in_k):
