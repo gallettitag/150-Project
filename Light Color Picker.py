@@ -1,10 +1,12 @@
 import time
 
-import Temp_Getter
+import Weather_Getter
+
 
 def pick_color():
-    current_temp = Temp_Getter.get_temp()
+    current_temp = Weather_Getter.get_temp()
     color = ''
+    print(current_temp)
 
     if current_temp < 40:
         color = '0000CC'
@@ -17,6 +19,7 @@ def pick_color():
 
     print(color)
     return color
+
 
 while True:
     pick_color()
