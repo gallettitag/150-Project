@@ -23,4 +23,4 @@ def pick_color():
 
 while True:
     pick_color()
-    time.sleep(5)
+    time.sleep(3)
