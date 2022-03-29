@@ -2,7 +2,7 @@ import requests
 import config
 
 lat = 39.4833
-long = 87.3241
+long = -87.3241
 request_profile = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={long}&appid={config.weather_api}"
 
 
