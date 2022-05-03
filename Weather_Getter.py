@@ -25,3 +25,4 @@ def get_temp():
 
 def k_to_f(temp_in_k):
     return temp_in_k * 1.8 - 459.67
+

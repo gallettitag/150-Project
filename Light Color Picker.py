@@ -3,6 +3,7 @@ import time
 import Weather_Getter
 
 
+
 def pick_color():
     current_temp = Weather_Getter.get_temp()
     color = ''
@@ -24,3 +25,4 @@ def pick_color():
 while True:
     pick_color()
     time.sleep(3)
+
