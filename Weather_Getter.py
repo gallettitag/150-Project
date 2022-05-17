@@ -14,7 +14,8 @@ def get_requests():
 
 
 def get_conditions():
-    return get_requests()['weather'][0]['description']
+    print(get_requests()['weather'][0]['main'])
+    return get_requests()['weather'][0]['main']
 
 
 def get_temp():
@@ -26,3 +27,4 @@ def get_temp():
 def k_to_f(temp_in_k):
     return temp_in_k * 1.8 - 459.67
 
+get_conditions()
