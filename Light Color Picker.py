@@ -46,8 +46,7 @@ strip_pixels = neopixel.NeoPixel(board.D10, 30, brightness=strip_pixel_brightnes
 magtag_pixels = magtag.peripherals.neopixels
 magtag_pixels.brightness = magtag_pixel_brightness
 
-def pick_color():
-    current_temp = Weather_Getter.get_temp()
+def pick_color(current_temp):
     color = ()
     print(current_temp)
 
